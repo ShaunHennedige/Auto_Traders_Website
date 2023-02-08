@@ -1,0 +1,369 @@
+/* new CSS  */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400;1,600&display=swap");
+
+* {
+  background-color: #f5f5dc;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: nowrap;*/
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+
+#navbar-login {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  margin-left: 2rem;
+}
+
+.nav-item a:hover {
+  /* background-color: #0984e3; */
+  font-size: large;
+  color: #0984e3;
+  /* border-radius: 1ch; */
+}
+
+.nav-item1 a:hover {
+  border-radius: 2ch 1ch 2ch 1ch;
+}
+.nav-item2 a:hover {
+  border-radius: 1ch 2ch 1ch 2ch;
+}
+
+.nav-link {
+  font-size: larger;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  color: black;
+}
+#navbarSupportedContent a:hover {
+  font-size: larger;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  color: #0984e3;
+}
+
+#navbar-login li a:hover {
+  background-color: #fec61f;
+  /* font-size: large; */
+  color: #343a40;
+  transition: all 0.1s ease;
+}
+
+#navbarSupportedContent ul li a.active-page {
+  background-color: #0984e3;
+  font-size: large;
+  color: #f5f5dc;
+  border-radius: 1ch;
+}
+
+#navbar-login li a.active-page {
+  background-color: #0984e3;
+  font-size: large;
+  color: #f5f5dc;
+  border-radius: 1ch;
+}
+
+.img-logo {
+  max-width: 60%;
+  height: auto;
+}
+
+.img-logo:hover {
+  opacity: 0.7;
+}
+
+.booknow-button {
+  padding: 14px 20px;
+  /* margin-right: auto; */
+  margin: 15px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  /* width: 30%; */
+  opacity: 0.9;
+  transition: all 0.15s ease;
+}
+
+.booknow-button:hover {
+  opacity: 1;
+  font-weight: bold;
+  color: black;
+  transform: translateY(-3px) scale(1.05);
+}
+
+.login-register-text {
+  padding-top: 1rem;
+}
+.register-text {
+  padding: 0.5rem auto;
+}
+
+.dealer {
+  padding: 1rem 1rem;
+  margin: 1rem 1rem;
+}
+.dealer tbody {
+  column-width: 1rem;
+  padding: 1rem 2rem;
+  margin: 1rem 2rem;
+}
+.dealer tbody tr {
+  column-width: 1rem;
+
+  padding: 2rem 2rem;
+  margin: 2rem 1rem;
+}
+.dealer tbody th {
+  width: 3rem;
+
+  /* padding: 1rem 1rem; */
+  margin-left: 0;
+}
+
+.dealer-spacer {
+  margin-left: 1rem;
+}
+
+.statement {
+  padding: 1rem 2rem;
+  margin: 1rem 1rem;
+  border: 1px solid #343a40;
+}
+
+.vision {
+  padding: 1rem 2rem;
+  margin: 1rem 1rem;
+  border: 1px solid #343a40;
+  border-radius: 4px;
+  font-style: italic;
+}
+
+.vision ul {
+  list-style: none;
+}
+
+.mission ul {
+  list-style: none;
+}
+
+.mission {
+  padding: 1rem 2rem;
+  margin: 1rem 1rem;
+  /* border: 1px solid #ccc; */
+  /* box-sizing: border-box; */
+  border: 1px solid #343a40;
+  border-radius: 4px;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: right;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: right;
+  text-decoration: none;
+}
+.fab {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: right;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fas:hover {
+  opacity: 0.7;
+}
+
+/* .bg-light {
+  background-color: #2d3436;
+}
+.bg-color {
+  background-color: #2d3436;
+} */
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.footer {
+  margin-top: 1rem;
+  /* padding-top: 5px; */
+}
+
+section p {
+  background-color: #343a40;
+}
+
+/*
+old CSS code -> DONT DELETE!!
+
+body {
+  background-color: blanchedalmond;
+}
+
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+img {
+  border-radius: 4px;
+  padding: 10px;
+  width: 100px;
+}
+hr {
+  border-top: 1px bisque;
+}
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+form {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.header {
+  padding: 10px 10px;
+  background-color: blanchedalmond;
+}
+.alignRight {
+  float: right;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  padding-top: 35px;
+}
+
+.button1 {
+  background-color: blanchedalmond;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 2px solid blanchedalmond;
+  border-radius: 8px;
+}
+.button1:hover {
+  background-color: rgb(214, 163, 105);
+  color: blanchedalmond;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(238, 198, 66, 0.2);
+  transition: 0.3s;
+  width: 31%;
+  float: left;
+  padding: 2px 10px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding: 10px 14px;
+}
+
+input[type="text"],
+select,
+[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(226, 204, 132);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: rgb(214, 163, 105);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #c4730a;
+}
+.form {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: 25px;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 8px;
+}
+p {
+  color: blanchedalmond;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+} 
+*/
